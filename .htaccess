@@ -1,6 +1,6 @@
 <ifmodule mod_rewrite.c> 
 RewriteEngine on
-ErrorDocument 404 http://localhost/intentar/Error/
+ErrorDocument 404 http://localhost/hola/Error/
 
 RewriteCond %[SCRIPT_FILANAME] !-d
 RewriteCond %[SCRIPT_FILANAME] !-f

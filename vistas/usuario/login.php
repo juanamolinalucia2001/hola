@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" >
         <title>Inicio</title>
-        <link rel="stylesheet" href="<?=puta_vos?>assets/css/estilo.css">
+        <link type="text/css" rel="stylesheet" href="<?=puta_vos?>assets/css/estilo.css">
     </head>
     
     <body><div class="login-wrap">
