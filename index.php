@@ -4,7 +4,7 @@ require_once 'config/parameters.php';
 require_once 'config/db.php';
 require_once 'autoload.php';
 
-
+require_once 'vistas/layout/header.php';
       
    
 function show_error(){

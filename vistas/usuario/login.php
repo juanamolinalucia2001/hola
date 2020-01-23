@@ -1,14 +1,4 @@
 
-<!DOCTYPE html>
-<html lang="es">
-    <head>
-    <meta charset="utf-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
-    <meta name="viewport" >
-        <title>Inicio</title>
-        <link type="text/css" rel="stylesheet" href="<?=puta_vos?>assets/css/estilo.css">
-    </head>
-    
     <body><div class="login-wrap">
     
         
@@ -18,7 +8,7 @@
 		<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Cliente</label>
 		<div class="login-form">
 			<div class="sign-in-htm">
-			<form action="http://localhost/intentar/Usuario/login" method="post" >
+			<form action="<?php echo puta_vos?>Usuario/login" method="post" >
 		
 				<div class="group">
 					<label for="user" class="label">email</label>
